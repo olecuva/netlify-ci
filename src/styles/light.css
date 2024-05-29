@@ -1,0 +1,108 @@
+.page.theme_light {
+  --bg-color: #fff1f7;
+  --bg-image: url(../images/cover-image-light.png);
+  --accent-color: #ff8dcb;
+  --lg-title-color: #ffc2e6;
+  --text-color: #353430;
+}
+
+.theme_light .header__decoration {
+  visibility: hidden;
+}
+
+.theme_light .header::before,
+.theme_light .header::after,
+.theme_light .footer::before,
+.theme_light .footer::after {
+  border-color: var(--text-color);
+}
+
+.theme_light .header__theme-menu-button {
+  color: var(--text-color);
+}
+
+.theme_light .header__theme-menu-button:hover {
+  border-color: rgb(50 49 45 / 0.4);
+}
+
+.theme_light .header__theme-menu-button:focus-visible {
+  outline: none;
+  border-color: var(--text-color);
+}
+
+.theme_light .header__theme-menu-button.header__theme-menu-button_active {
+  border-color: var(--text-color);
+}
+
+.theme_light .header__title {
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.theme_light .title-decor {
+  color: var(--text-color);
+  background-color: var(--accent-color);
+}
+
+.theme_light .section__title {
+  color: var(--text-color);
+}
+
+.theme_dark .footer__title {
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --bg-color: #fff1f7;
+    --bg-image: url(../images/cover-image-light.png);
+    --accent-color: #ff8dcb;
+    --lg-title-color: #ffc2e6;
+    --text-color: #353430;
+  }
+
+  .header__decoration {
+    visibility: hidden;
+  }
+
+  .header::before,
+  .header::after,
+  .footer::before,
+  .footer::after {
+    border-color: var(--text-color);
+  }
+
+  .header__theme-menu-button {
+    color: var(--text-color);
+  }
+
+  .header__theme-menu-button:hover {
+    border-color: rgb(50 49 45 / 0.4);
+  }
+
+  .header__theme-menu-button:focus-visible {
+    outline: none;
+    border-color: var(--text-color);
+  }
+
+  .header__theme-menu-button.header__theme-menu-button_active {
+    border-color: var(--text-color);
+  }
+
+  .header__title {
+    text-shadow: 4px 4px 0 var(--accent-color);
+  }
+
+  .title-decor {
+    color: var(--text-color);
+    background-color: var(--accent-color);
+  }
+
+  .section__title {
+    color: var(--text-color);
+  }
+
+  .footer__title {
+    text-shadow: 2px 2px 0 var(--accent-color);
+  }
+}

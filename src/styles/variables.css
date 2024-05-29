@@ -1,0 +1,22 @@
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+
+:root {
+  --bg-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
+
+  --accent-color: rgb(255 0 112);
+
+  --lg-title-color: #db00ff;
+
+  --text-color: #f1b2ce;
+  --text-size: 18px;
+  --text-line-height: 130%;
+
+  --main-font-weight: normal;
+  --accent-font-weight: bold;
+
+  --lg-section-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+}
