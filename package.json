@@ -19,12 +19,23 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
     "browser-sync": "^3.0.2",
+    "cssnano": "^7.0.1",
     "del": "^6.0.0",
     "gulp": "^5.0.0",
-    "gulp-concat-css": "^3.1.0",
+    "gulp-concat-css": "^1.2.0",
+    "gulp-group-css-media-queries": "^1.2.2",
     "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "html-minifier": "^4.0.0",
+    "postcss": "^8.4.38",
+    "postcss-combine-media-query": "^1.0.1",
     "prettier": "^3.2.5",
     "stylelint": "^16.6.1"
-  }
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ]
 }
